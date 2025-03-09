@@ -4,7 +4,7 @@ import requests
 # 🔹 Update with your deployed FastAPI URL
 BACKEND_URL = "https://api.langflow.astra.datastax.com/lf/c3820c28-e6fb-4643-a56e-6555ba30df67/api/v1/run/ArogyaMantra"
 
-st.title("🩺 AI-Based Healthcare Assistant")
+st.title("🩺 Arogya Mitra")
 
 st.markdown("### 📋 Patient Demographics")
 age = st.number_input("Age", min_value=0, max_value=120, step=1)
